@@ -1,0 +1,50 @@
+
+*{
+    font-family: cursive;
+    font-weight: 700;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(#e66465, #9198e5);
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+    background: url("pngegg.png");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.my-books-btn{
+    color: black !important;
+    border: 2px solid pink !important;
+    background: rgba(248, 248, 248, 0.84)  !important;
+    outline: none !important;
+    border-radius: 16px !important;
+}
+.my-books-btn:hover{
+    color:  #a18b9c !important;
+    border: 2px solid pink !important;
+    background: #9198e5 !important;
+    outline: none !important;
+    border-radius: 16px !important;
+}
+
+.col{
+    margin-bottom: 100px;
+    text-align: center
+}
+
+.item{
+    height: 40px
+}
+
+.row{
+    text-align: center
+    margin: 200px
+}
